@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(to right, #33ccff 0%, #cc66ff 100%);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h3{
+    text-align: center; font-size: 50px; padding: 50px;
+    color: rgb(24, 22, 22);
+}
+.container{
+   background-color: antiquewhite; height: 700px;width: 500px; position: relative; right: 00px;left: 500px;
+   
+}
+
+.details{ 
+    position:relative;left: 60px; 
+}
+.text{
+    border: none;
+    border-bottom:solid black 1px;
+    background-color: antiquewhite;
+    width: 370px;
+    background-image: url('user.jpg');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 5px 10px;
+    padding: 10px 0px 10px 25px ;
+}
+.password{
+    border: none;
+    border-bottom:solid black 1px;
+    background-color: antiquewhite;
+    width: 370px;
+    background-image: url('lock.jpg');
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 5px 10px;
+    padding: 10px 0px 10px 25px ;
+    
+}
+p.forgot{
+    position: relative;left: 350px;
+}
+.button{
+    padding:8px 210px;
+    display:inside;
+    font-size:20px;
+    background: linear-gradient(to right, #33ccff 0%, #cc66ff 100%);
+    border: none;
+   color: black;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   margin: 1px 20px;
+   cursor: pointer;
+   border-radius: 16px;
+   
+}
+
+p.signup{
+    text-align: center;
+    padding: 5px;
+}                              
+img{
+    position: relative; left: 170px; 
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    
+}
+.ls{
+    text-align: center;
+    padding: 10px;
+}
+image:hover{
+    
+    opacity: 0.8;
+}
+   
+img:hover{
+    background-color: rgb(71, 74, 255);
+}
+a:hover{
+    background-color: white;
+}
